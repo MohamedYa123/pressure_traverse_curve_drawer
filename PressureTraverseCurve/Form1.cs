@@ -304,5 +304,10 @@ namespace PressureTraverseCurve
             about about=new about();
             about.ShowDialog();
         }
+
+        private void printToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            printbtn.PerformClick();
+        }
     }
 }
