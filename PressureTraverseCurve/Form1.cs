@@ -13,6 +13,7 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Drawing.Printing;
+using System.Globalization;
 
 namespace PressureTraverseCurve
 {
@@ -35,6 +36,9 @@ namespace PressureTraverseCurve
         bool done = false;
         void calc(traversecurvecalculator pv)
         {
+            CultureInfo ci = new CultureInfo("en-US");
+            Thread.CurrentThread.CurrentCulture = ci;
+            Thread.CurrentThread.CurrentUICulture = ci;
             pv.calc(29);
             done = true;
         }
@@ -53,6 +57,9 @@ namespace PressureTraverseCurve
         {
             //label1.Text = "11";
             //progressBar1.Show();
+            CultureInfo ci = new CultureInfo("en-US");
+            Thread.CurrentThread.CurrentCulture = ci;
+            Thread.CurrentThread.CurrentUICulture = ci;
             runing = true;
             var cons = File.ReadAllLines("const.txt");
             var eqs = File.ReadAllLines("equations.txt");

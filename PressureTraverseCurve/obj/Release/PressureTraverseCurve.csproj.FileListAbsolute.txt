@@ -28,3 +28,14 @@ G:\projects\C# Projects\برنامج إنتاج2\pressure_traverse_curve-master\
 G:\projects\C# Projects\برنامج إنتاج2\pressure_traverse_curve-master\PressureTraverseCurve\obj\Release\PressureTraverseCurve.exe
 G:\projects\C# Projects\برنامج إنتاج2\pressure_traverse_curve-master\PressureTraverseCurve\obj\Release\PressureTraverseCurve.pdb
 G:\projects\C# Projects\برنامج إنتاج2\pressure_traverse_curve-master\PressureTraverseCurve\obj\Release\PressureTraverseCurve.about.resources
+G:\projects\pressure_traverse_curve_drawer.git\PressureTraverseCurve\bin\Release\PressureTraverseCurve.exe.config
+G:\projects\pressure_traverse_curve_drawer.git\PressureTraverseCurve\bin\Release\PressureTraverseCurve.exe
+G:\projects\pressure_traverse_curve_drawer.git\PressureTraverseCurve\bin\Release\PressureTraverseCurve.pdb
+G:\projects\pressure_traverse_curve_drawer.git\PressureTraverseCurve\obj\Release\PressureTraverseCurve.csproj.AssemblyReference.cache
+G:\projects\pressure_traverse_curve_drawer.git\PressureTraverseCurve\obj\Release\PressureTraverseCurve.about.resources
+G:\projects\pressure_traverse_curve_drawer.git\PressureTraverseCurve\obj\Release\PressureTraverseCurve.Form1.resources
+G:\projects\pressure_traverse_curve_drawer.git\PressureTraverseCurve\obj\Release\PressureTraverseCurve.Properties.Resources.resources
+G:\projects\pressure_traverse_curve_drawer.git\PressureTraverseCurve\obj\Release\PressureTraverseCurve.csproj.GenerateResource.cache
+G:\projects\pressure_traverse_curve_drawer.git\PressureTraverseCurve\obj\Release\PressureTraverseCurve.csproj.CoreCompileInputs.cache
+G:\projects\pressure_traverse_curve_drawer.git\PressureTraverseCurve\obj\Release\PressureTraverseCurve.exe
+G:\projects\pressure_traverse_curve_drawer.git\PressureTraverseCurve\obj\Release\PressureTraverseCurve.pdb

@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Data;
+using System.Globalization;
+using System.Threading;
 namespace PressureTraverseCurve
 {
     public class traversecurvecalculator
@@ -125,10 +127,11 @@ namespace PressureTraverseCurve
                     }
                 }
             }
-           // DataTable dt=new DataTable();
-            
-           //var al= dt.Compute(eq.Replace("^", "**"), string.Empty);
-           // var s = Convert.ToDouble(al);
+            // DataTable dt=new DataTable();
+
+            //var al= dt.Compute(eq.Replace("^", "**"), string.Empty);
+            // var s = Convert.ToDouble(al);
+        //    eq = eq.Replace(',', '.');
             operation opers = new operation(eq,rm,variables);
             return (double)opers.calc();
         }
@@ -151,6 +154,9 @@ namespace PressureTraverseCurve
         public int stepsreached = 0;
         public void calc(int steps)
         {
+            CultureInfo ci = new CultureInfo("en-US");
+            Thread.CurrentThread.CurrentCulture = ci;
+            Thread.CurrentThread.CurrentUICulture = ci;
             stepsreached = 0;
             for (int n = 0; n < steps; n++)
             {
